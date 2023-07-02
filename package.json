@@ -1,0 +1,17 @@
+{
+  "name": "teams-networking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf docs",
+    "clear": "npm run clean && rimraf node_modules",
+    "prebuild": "npm run clean",
+    "build": "webpack --mode production",
+    "start": "webpack serve --open",
+    "demo": "set PORT=8080 && serve docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
