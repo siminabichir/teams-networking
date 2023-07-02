@@ -69,3 +69,13 @@ footer {
 #teamsTable tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+
+.tbar {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 5px 0;
+}
+
+.tfill {
+  flex: 1;
+}
